@@ -1,0 +1,7 @@
+package com.se191116.mvc.homework1.exception;
+
+public class BadRequestException extends RuntimeException {
+    public BadRequestException(String message) {
+        super(message);
+    }
+}
